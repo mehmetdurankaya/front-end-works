@@ -1,0 +1,56 @@
+.container{
+    margin-top: 10rem;
+    display: grid;
+    place-items: center; /* Yatayda ve dikeyde merkezle */
+    height: 100vh; /* Ekran yüksekliği kadar yer kaplasın */
+    background-color: #0d1a2d;
+}
+.main{
+    margin:20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.card {
+    width: 300px; /* Kartın genişliğini ayarlayın */
+   
+    border-radius: 20px;    
+    background-color: #15273f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+
+}
+
+/* Kart içeriği stilini ayarlayın */
+.card img {    
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+   
+}
+.imgWrapper{
+    margin:20px 20px 10px 20px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card-content p {
+    font-size: 16px;
+    margin: 10px 0;
+     
+}
+.article{   
+    
+    line-height: 2;
+    font-weight: 100;
+    opacity: 0.6;
+}
